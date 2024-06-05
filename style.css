@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Consolas';
+}
+#wrapper-div {
+    width: 80%;
+    background-color: #900090;
+    margin: auto;
+}
+#main1-div {
+    width: 100%;
+}
+#logo-div {
+    width: 50%;
+    min-height: 50px;
+    background-color: #100010;
+    color: black;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 60px;
+    float: left;
+}
+#logo-div img {
+
+    width: 10%;
+	float: left;
+}
+#logo-div h2 {
+	color: white;
+	text-align: center-left;
+}
+
+#nav-div {
+    width: 50%;
+    min-height: 60px;
+    background-color: #100010;
+    text-align: center;
+    float: left;
+    font-size: 13px;
+    line-height: 60px;
+}
+#nav-div a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#main-div {
+    width: 100%;
+}
+#main-content-div {
+    width: 100%;
+    background-color: #100010;
+    float: right;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#main-content-div {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 500px;
+    font-weight: bold;
+    background-color: #9090FF;
+    color: black;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 10px;
+}
+#footer-div {
+    margin-top: 10px;
+	margin-right: 200px;
+    width: 100%;
+    background-color: #3030FF;
+    font-weight: bold;
+    line-height: 30px;
+	text-align: center;
+}
+.sidebar {
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  .sidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  }
+  .sidebar a:hover {
+    color: white;
+  }
+  
